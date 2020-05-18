@@ -29,7 +29,7 @@ namespace Laboratorio6
 
             foreach (Persona trabajador in trabajadores)
             {
-                datos += $"\n{trabajador.Nombre} - {trabajador.Cargo}";
+                datos += $"\n{trabajador.Nombre} {trabajador.Apellido} - {trabajador.Cargo}";
             }
 
             return datos;
